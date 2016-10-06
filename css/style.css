@@ -1,0 +1,116 @@
+.sidebar {
+margin: 0 auto;
+padding:0;
+border: none;
+/*background-color: #395870;*/
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-top: 20px;
+/*box-shadow: 1px 1px 5px #111;*/
+
+}
+
+.sidebar ul {
+margin: 0;
+padding:10px;
+line-height:1.5em;
+list-style: none;
+}
+
+.sidebar a {
+color: #e08039;
+font-weight: 600;
+font-size: 16px;
+text-shadow: inset 3px -4px 6px rgba(69, 6, 47, 0.15);
+
+}
+.sidebar li {
+text-align: left;
+}
+
+.table {
+overflow: auto;
+}
+a[href$='.pdf'] {
+background: url(images/acrobat.png) no-repeat right top;
+padding-right: 22px;
+}
+a[href$='.xlsx'] {
+background: url(images/excel.png) no-repeat right top;
+padding-right: 22px;
+}
+a:hover {
+background-color: rgba(255,255,255,.4);
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; 
+  color: #4a4a4d;/*visibility: hidden;*/
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #395870;
+  color: #fff;
+}
+th:first-child {
+  text-align: left;
+}
+tbody tr:nth-child(even) {
+  background: rgba(183, 183, 232, 0.11);
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+.book-title {
+  color: #395870;
+  display: block;
+}
+.item-stock,
+.item-qty {
+  text-align: center;
+}
+.item-price {
+  text-align: right;
+}
+.item-multiple {
+  display: block;
+}
+tfoot {
+  text-align: right;
+}
+tfoot tr:last-child {
+  background: #f0f0f2;
+}
+
+.table {
+margin-left: 25%;
+
+}
+caption {
+display: inline-block;
+text-align: center;
+margin-bottom: 30px;
+padding-bottom: 5px;
+font-size: 20px;
+background-image: url(images/underline.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 300px;
+}
+a {
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+
